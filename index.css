@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+html {
+    font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    
+}
+
+#containerHeader {
+    background-color: #6943FF;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-el {
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    background-color: #6943FF;
+    -webkit-appearance: none;
+    border-color: #B295FF;
+    border-style: solid;
+    margin-bottom: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    
+    }
+    
+    
+#input-el::-webkit-inner-spin-button,
+#input-el::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#convert-Btn {
+    padding: 9px 27px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+
+#containerMain {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    
+}
+
+#LengthContainer {
+    margin-top: 30px;
+}
+
+#MassContainer {
+    margin-bottom: 30px;
+}
+
+#LengthContainer, #VolumeContainer, #MassContainer {
+    color: white ;
+    background-color: white;
+    width: 500px;
+    height: 100px;
+    padding: 15px 100px;
+    
+}
+h2 {
+    color: #5A537B;
+    font-size: 1.6em;
+    margin: 0;
+}
+
+p {
+    color: black;
+    font-size: 1.1em;
+   
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+#convert-Btn:hover {
+    background-color: #B295FF;
+    color: white;
+}
